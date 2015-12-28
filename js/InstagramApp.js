@@ -3,13 +3,9 @@
 function InstagramApp() {
 	console.log("InstagramApp()");
 
-	//next variables hold the html elements in a jquery wrapper
-	//when we have these elements as javascript variables we have much more control over them and can do things like make them scroll like a carousel
-	this.$carousel = $(".carousel");
-	this.$carouselImgs = $(".carousel-img");
+	//if our document had other user interface elements then we would instantiate them here too
+	this.carousel = new Carousel();
 
+	//javascript variable scoping is weird.  There's a difference between using 'this.varname' and 'var varname' in js
 
-	//see them in the console window
-	console.log("carousel==", this.$carousel);
-	console.log("carousel images==", this.$carouselImgs);
 };
