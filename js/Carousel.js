@@ -5,7 +5,7 @@ function Carousel() {
 
 	//next variables hold the html elements in a jquery wrapper
 	//when we have these elements as javascript variables we have much more control over them and can do things like make them scroll like a carousel
-	this.$carousel = $(".carousel");
+	this.$carousel = $(".carousel");	//the $ is indicative of jquery which smooths out the differences in how browsers handle javascript
 	this.$carouselImgs = $(".carousel-img");
 
 
@@ -17,7 +17,7 @@ function Carousel() {
 
 	for(var i = 0; i < this.$carouselImgs.length; i++){
 		this.carouselImgs.push( new CarouselItem(this.$carouselImgs[i]));
-		
+
 	}
 	
 };
