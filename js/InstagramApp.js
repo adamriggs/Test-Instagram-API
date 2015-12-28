@@ -10,5 +10,5 @@ function InstagramApp() {
 
 	//see them in the console window
 	console.log("carousel==", this.$carousel);
-	console.log("carousel images ==", this.$carouselImgs);
+	console.log("carousel images==", this.$carouselImgs);
 };
