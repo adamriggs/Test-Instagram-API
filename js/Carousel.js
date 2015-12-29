@@ -15,9 +15,9 @@ function Carousel() {
 
 	this.carouselImgs = [];  // an array to hold the carousel image objects, which are different from the html elements
 
+	//for every carousel-img create a new js object and pass the html element into it
 	for(var i = 0; i < this.$carouselImgs.length; i++){
 		this.carouselImgs.push( new CarouselItem(this.$carouselImgs[i]));
-
 	}
 	
 };
