@@ -12,5 +12,5 @@ Basic outline of how to make a scrolling instagram feed:
 Appendix:
 -----
 
-- A. responsiveness
-- B. mobile
+- responsiveness
+- mobile
