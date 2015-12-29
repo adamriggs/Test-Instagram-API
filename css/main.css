@@ -1,0 +1,13 @@
+.carousel {
+
+	width: 908px;
+	overflow: hidden:;
+}
+
+.carousel .viewport {
+	width: 2428px;
+}
+
+.carousel .viewport .carousel-img {
+	width: 300px;
+}
