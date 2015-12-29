@@ -1,11 +1,23 @@
+<<<<<<< HEAD
 .carousel {
 
 	width: 908px;
+=======
+
+
+.carousel {
+
+	width: 908px;	/* there must be some kind of padding or margin on the images since the last one gets cut off if I don't add the extra 8px */
+>>>>>>> 3ed94a2d79363403582d2a626302708df34e0155
 	overflow: hidden;
 }
 
 .carousel .viewport {
+<<<<<<< HEAD
 	width: 2428px;
+=======
+	width: 2428px; /* looks like it's about 3px per image */
+>>>>>>> 3ed94a2d79363403582d2a626302708df34e0155
 }
 
 .carousel .viewport .carousel-img {
